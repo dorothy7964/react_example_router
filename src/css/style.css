@@ -1,0 +1,12 @@
+a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.link {
+	width: 10px;
+	margin: 0 5px;
+	padding : 10px 26px;
+	background-color: cornflowerblue;
+	color: aliceblue;
+}
