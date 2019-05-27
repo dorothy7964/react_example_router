@@ -1,6 +1,16 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import '../css/style.css';
+
+class Content extends Component {
+	render(){
+		const match = this.props.match.params;
+
+		return(
+			<h2>{match.title}</h2>
+		)
+	}
+}
 
 class Posts extends Component {
 	render(){
@@ -10,6 +20,7 @@ class Posts extends Component {
 				<Link to="/posts/react" className="link">react</Link>
 				<Link to="/posts/redux" className="link">redux</Link>
 				<Link to="/posts/store" className="link">store</Link>
+				<Route path="/posts/:title" component={Content} />
 			</div>
 		)
 	}
