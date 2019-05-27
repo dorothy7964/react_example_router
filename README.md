@@ -15,3 +15,10 @@ params (/about/:name 형식) 정보를 가지고있습니다.
 현재 위치
 이 객체는 현재 경로에 대한 정보를 지니고 있고
 URL 쿼리 (/about?foo=bar 형식) 정보도 가지고있습니다.
+
+## Installation
+
+```sh
+# npm
+npm install react-router-dom --save
+```
