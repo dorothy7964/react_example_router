@@ -1,0 +1,17 @@
+.header {
+	display:table; table-layout:fixed;
+	width:100%;
+	background:#5c7cfa;
+}
+
+.item {
+	display:table-cell;
+	text-align:center; text-decoration:none;
+	font-size:1.1rem; color:#fff;
+	padding: 1rem 0;
+}
+
+.item.on {
+	background-color: aliceblue;
+	color: black;
+}
