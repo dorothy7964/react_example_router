@@ -3,7 +3,7 @@
 항상 하위 컴포넌트에게 주는 3가지 정보를 가지고 있다.
 
 ### `history`
-현재 어떤 상태인지
+현재 어떤 상태인지 
 이 객체를 통해 push, replace 를 통해 다른 경로로 이동하거나
 앞 뒤 페이지로 전환 할 수 있습니다.
 
@@ -25,7 +25,7 @@ npm install react-router-dom --save
 
 ## 설명
 Router는 두가지의 라우터를 제공한다.
-<BrowserRouter> / <HashRouter>
+`<BrowserRouter>`, `<HashRouter>`
 브라우저 라우터는 동적요청을 처리하는 서버가 존재할 경우 사용하고,
 해시라우터는 정적  웹 사이트에 사용된다.
 보통은 브라우저 라우터를 사용한다
